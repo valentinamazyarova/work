@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/favorite_brands.css" />
+    <link rel="stylesheet" href="css/footer-phone.css" />
+    <link rel="stylesheet" href="css/block_main_phone.css" />
+</head>
+<body>
+    <header>
+        <div class="firstline">
+          <a href="#">Мобильная версия</a>
+          <a href="#">Моя коллекция</a>
+          <a href="#">Бренды</a>
+          <a href="#">Навигация по сайту</a>
+          <a href="#">Книга отзывов и предложений</a>
+        </div>
+        <div class="line"></div>
+        <div class="secondline">
+          <div class="burger">
+            <div class="toggle-btn" onclick="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="sidebar">   
+              <ul>  
+                  <li><a href="">Главная</a></li>
+                  <li><a href="">Мои заказы</a></li>
+                  <li><a href="">Корзина</a></li>
+                  <li><a href="">Избранное</a></li>
+                  <li><a href="">Товары</a></li>
+                  <li><a href="">Услуги</a></li>
+                  <li><a href="">Выбрать другой город</a></li>
+                  <li><a href="">Помощь</a></li>
+                  <li><a href="">Контакты</a></li>
+              </ul>
+            </div> 
+            <script>
+              function openMenu() {
+                  document.getElementById("sidebar").classList.toggle('active');
+              }
+            </script>
+          </div>
+          <div class="logotype">
+            <h1>VSETUT</h1>
+            <h2>Мир товаров и услуг</h2>
+          </div>
+          <div class="switch">
+            <a href="index.html" class="active">Товары</a>
+            <a href="uslugi.html">Услуги</a>
+            <a href="another_city.html">Выбрать другой город</a>
+          </div>
+          <div class="rightline">
+            <a href="user_profile.html" class="user">
+              <img src="./img/user.svg" alt="" />
+            </a>
+            <a href="#" class="wishlist">
+              <img src="./img/wishlist.svg" alt="" />
+            </a>
+            <a href="#" class="cart">
+              <img src="./img/cart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="block_main_phone">
+        <img src="./img/arrow_right-phone.svg" alt="" / onclick="document.location='./user_profile.html'">
+        <h1>Любимые бренды</h1>
+      </div>
+      <main>
+        <div class="container_favorite-brands">
+          <p>Любимые бренды</p>
+        <div class="text">
+          <div class="inner">
+            <p>Заходите на страницы любимых брендов и нажимайте на</p> 
+            <img src="./img/like.svg" alt="" />
+          </div>
+          <p>Бренд попадает в данный радел, и Вы сможете следить за его новинками</p>
+        </div>
+        <button onclick="document.location='./index.html'">Перейти на главную</button>
+        </div> 
+      </main>
+      <div class="version-phone">
+        <form class="search">
+          <input type="text" placeholder="Я ищу..." />
+          <a href="#">
+            <img src="./img/search-photo.svg" alt="" />
+          </a>
+          <button type="submit">Найти</button>
+        </form>
+        <div class="zero-block">
+          <p>Вы не подписаны ни на<br>
+             один бренд</p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer_container">
+          <h1>ИНФОРМАЦИЯ О КОМПАНИИ VSETUT</h1>
+          <a href="">Партнерство</a>
+          <a href="">ПОМОЩЬ И ПОДДЕРЖКА</a>
+          <a href="">Цена Доставки</a>
+          <a href="">Возврат Товара</a>
+          <a href="">Как Сделать Заказ</a>
+          <a href="">Как Отследить Посылку</a>
+          <a href="">Справка Размера</a>
+          <a href="">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</a>
+          <a href="">Связаться С Нами</a>
+          <a href="">Способы Оплаты</a>
+          <a href="">Социальная Ответственность</a>
+          <a href="">Связаться с Владельцем</a>
+        </div>
+      </footer>
+      <div class="footer-phone">
+        <a href="user_profile.html" class="img">
+          <img src="./img/home.svg" alt=""  />
+        </a>
+        <a href="#" class="img2" >
+          <img src="./img/shopping_cart.svg" alt="" />
+        </a>
+        <a href="#" class="img3" >
+          <img src="./img/services.svg" alt="" />
+        </a>
+        <a href="#" class="img4" >
+          <img src="./img/other-sity.svg" alt="" />
+        </a>
+      </div>
+</body>
+</html>

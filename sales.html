@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/sales.css" />
+    <link rel="stylesheet" href="css/footer-phone.css" />
+    <link rel="stylesheet" href="css/block_main_phone.css" />
+</head>
+<body>
+    <header>
+        <div class="firstline">
+          <a href="#">Мобильная версия</a>
+          <a href="#">Моя коллекция</a>
+          <a href="#">Бренды</a>
+          <a href="#">Навигация по сайту</a>
+          <a href="#">Книга отзывов и предложений</a>
+        </div>
+        <div class="line"></div>
+        <div class="secondline">
+          <div class="burger">
+            <div class="toggle-btn" onclick="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="sidebar">   
+              <ul>  
+                  <li><a href="">Главная</a></li>
+                  <li><a href="">Мои заказы</a></li>
+                  <li><a href="">Корзина</a></li>
+                  <li><a href="">Избранное</a></li>
+                  <li><a href="">Товары</a></li>
+                  <li><a href="">Услуги</a></li>
+                  <li><a href="">Выбрать другой город</a></li>
+                  <li><a href="">Помощь</a></li>
+                  <li><a href="">Контакты</a></li>
+              </ul>
+            </div> 
+            <script>
+              function openMenu() {
+                  document.getElementById("sidebar").classList.toggle('active');
+              }
+            </script>
+          </div>
+          <div class="logotype">
+            <h1>VSETUT</h1>
+            <h2>Мир товаров и услуг</h2>
+          </div>
+          <div class="switch">
+            <a href="index.html" class="active">Товары</a>
+            <a href="uslugi.html">Услуги</a>
+            <a href="another_city.html">Выбрать другой город</a>
+          </div>
+          <div class="rightline">
+            <a href="user_profile.html" class="user">
+              <img src="./img/user.svg" alt="" />
+            </a>
+            <a href="#" class="wishlist">
+              <img src="./img/wishlist.svg" alt="" />
+            </a>
+            <a href="#" class="cart">
+              <img src="./img/cart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="block_main_phone">
+        <img src="./img/arrow_right-phone.svg" alt="" / onclick="document.location='./user_profile.html'">
+        <h1>Скидка клиента</h1>
+      </div>
+      <div class="wrapper">
+          <div class="firstline">
+              <div class="round">
+                  <p>3%</p>
+              </div>
+              <p>Скидка зависит от суммы выкупа за <br> весь периуд</p>
+          </div>
+          <div class="secondline">
+              <p>Сумма выкупа</p>
+              <p>0 руб.</p>
+          </div>
+          <div class="thirdline">
+              <p>Расчет скидки</p>
+              <div class="sales-table">
+                  <div class="line1">
+                      <p>от 0 руб.</p>
+                      <p>3%</p>
+                  </div>
+                  <div class="line"></div>
+                  <div class="line1">
+                    <p>от 100 000 руб.</p>
+                    <p>5%</p>
+                  </div>
+                  <div class="line"></div>
+                  <div class="line1">
+                    <p>от 250 000 руб.</p>
+                    <p>7%</p>
+                  </div>
+                  <div class="line"></div>
+                  <div class="line1">
+                    <p>от 500 000 руб.</p>
+                    <p>10%</p>
+                  </div>
+                  <div class="line"></div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-phone">
+        <a href="user_profile.html" class="img">
+          <img src="./img/home.svg" alt=""  />
+        </a>
+        <a href="#" class="img2" >
+          <img src="./img/shopping_cart.svg" alt="" />
+        </a>
+        <a href="#" class="img3" >
+          <img src="./img/services.svg" alt="" />
+        </a>
+        <a href="#" class="img4" >
+          <img src="./img/other-sity.svg" alt="" />
+        </a>
+      </div>
+</body>
+</html>

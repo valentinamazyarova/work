@@ -1,0 +1,76 @@
+main .container-table{
+    margin-top: 65px;
+}
+main .container-table table{
+    color: #1C1C1C;
+    font: 14px/100% Ubuntu;
+    width: 1240px;
+    border-collapse: collapse;
+    background: #ffff;
+
+}
+main .container-table h1{
+    color: #000;
+    font: 18px/100% Ubuntu;
+}
+main .container-table tr{
+    border-bottom: 2px solid #C4C4C4;
+}
+main .container-table tr:first-child{
+    border-top: 2px solid #FF5800;
+}
+main .container-table td:first-child{
+    background: #ECECEC;
+    opacity: 0.8;
+}
+main .container-table td:last-child{
+    background: #ECECEC;
+    opacity: 0.8;
+}
+main .container-table td{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+main .container-table button img{
+    transition: 0.3s;
+}
+main .container-table .dop {
+    display: none;
+}
+main .container-table .dop1 {
+    display: none;
+}
+.up{
+    transform: rotate(180deg);
+}
+.up1{
+    transform: rotate(180deg);
+}
+main .container-table .dop2 {
+    display: none;
+}
+.up2{
+    transform: rotate(180deg);
+}
+main .container-table .dop3 {
+    display: none;
+}
+.up3{
+    transform: rotate(180deg);
+}
+main .container-table .dop4 {
+    display: none;
+}
+.up4{
+    transform: rotate(180deg);
+}
+main .container-table .dop5 {
+    display: none;
+}
+.up5{
+    transform: rotate(180deg);
+}
+
+
+

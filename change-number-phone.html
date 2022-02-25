@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/block_main_phone.css" />
+    <link rel="stylesheet" href="css/change-number-phone.css" />
+    <link rel="stylesheet" href="css/footer-phone.css" />
+    
+</head>
+<body>
+    <header>
+        <div class="firstline">
+          <a href="#">Мобильная версия</a>
+          <a href="#">Моя коллекция</a>
+          <a href="#">Бренды</a>
+          <a href="#">Навигация по сайту</a>
+          <a href="#">Книга отзывов и предложений</a>
+        </div>
+        <div class="line"></div>
+        <div class="secondline">
+          <div class="burger">
+            <div class="toggle-btn" onclick="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="sidebar">   
+              <ul>  
+                  <li><a href="">Главная</a></li>
+                  <li><a href="">Мои заказы</a></li>
+                  <li><a href="">Корзина</a></li>
+                  <li><a href="">Избранное</a></li>
+                  <li><a href="">Товары</a></li>
+                  <li><a href="">Услуги</a></li>
+                  <li><a href="">Выбрать другой город</a></li>
+                  <li><a href="">Помощь</a></li>
+                  <li><a href="">Контакты</a></li>
+              </ul>
+            </div> 
+            <script>
+              function openMenu() {
+                  document.getElementById("sidebar").classList.toggle('active');
+              }
+            </script>
+          </div>
+          <div class="logotype">
+            <h1>VSETUT</h1>
+            <h2>Мир товаров и услуг</h2>
+          </div>
+          <div class="switch">
+            <a href="index.html" class="active">Товары</a>
+            <a href="uslugi.html">Услуги</a>
+            <a href="another_city.html">Выбрать другой город</a>
+          </div>
+          <div class="rightline">
+            <a href="user_profile.html" class="user">
+              <img src="./img/user.svg" alt="" />
+            </a>
+            <a href="#" class="wishlist">
+              <img src="./img/wishlist.svg" alt="" />
+            </a>
+            <a href="#" class="cart">
+              <img src="./img/cart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="block_main_phone">
+        <img src="./img/arrow_right-phone.svg" alt="" / onclick="document.location='./user_data-phone.html'">
+        <h1>Изменение номера телефона</h1>
+      </div>
+      <div class="wrapper">
+          <p>Укажите новый номер телефона</p>
+          <input type="phone" placeholder="номер телефона">
+          <p>Например, +71234567890</p>
+          <p>Код подтверждения будет отправлен на прежний номер
+            890435467867</p>
+          <p class="text-bottom">Иногда СМС приходит с задержкой</p>
+          <button>Получить код</button>
+          <div class="line"></div>
+          <p>Изменить номер мобильного можно не более 2-х раз в сутки.</p>
+      </div>
+      <div class="footer-phone">
+        <a href="user_profile.html" class="img">
+          <img src="./img/home.svg" alt=""  />
+        </a>
+        <a href="#" class="img2" >
+          <img src="./img/shopping_cart.svg" alt="" />
+        </a>
+        <a href="#" class="img3" >
+          <img src="./img/services.svg" alt="" />
+        </a>
+        <a href="#" class="img4" >
+          <img src="./img/other-sity.svg" alt="" />
+        </a>
+      </div>
+      
+</body>
+</html>

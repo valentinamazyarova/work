@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/user_data-phone.css" />
+    <link rel="stylesheet" href="css/footer-phone.css" />
+    <link rel="stylesheet" href="css/block_main_phone.css" />
+</head>
+<body>
+    <header>
+        <div class="firstline">
+          <a href="#">Мобильная версия</a>
+          <a href="#">Моя коллекция</a>
+          <a href="#">Бренды</a>
+          <a href="#">Навигация по сайту</a>
+          <a href="#">Книга отзывов и предложений</a>
+        </div>
+        <div class="line"></div>
+        <div class="secondline">
+          <div class="burger">
+            <div class="toggle-btn" onclick="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="sidebar">   
+              <ul>  
+                  <li><a href="">Главная</a></li>
+                  <li><a href="">Мои заказы</a></li>
+                  <li><a href="">Корзина</a></li>
+                  <li><a href="">Избранное</a></li>
+                  <li><a href="">Товары</a></li>
+                  <li><a href="">Услуги</a></li>
+                  <li><a href="">Выбрать другой город</a></li>
+                  <li><a href="">Помощь</a></li>
+                  <li><a href="">Контакты</a></li>
+              </ul>
+            </div> 
+            <script>
+              function openMenu() {
+                  document.getElementById("sidebar").classList.toggle('active');
+              }
+            </script>
+          </div>
+          <div class="logotype">
+            <h1>VSETUT</h1>
+            <h2>Мир товаров и услуг</h2>
+          </div>
+          <div class="switch">
+            <a href="index.html" class="active">Товары</a>
+            <a href="uslugi.html">Услуги</a>
+            <a href="another_city.html">Выбрать другой город</a>
+          </div>
+          <div class="rightline">
+            <a href="user_profile.html" class="user">
+              <img src="./img/user.svg" alt="" />
+            </a>
+            <a href="#" class="wishlist">
+              <img src="./img/wishlist.svg" alt="" />
+            </a>
+            <a href="#" class="cart">
+              <img src="./img/cart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="block_main_phone">
+        <img src="./img/arrow_right-phone.svg" alt="" />
+        <h1>Мои данные</h1>
+      </div>
+      <div class="wrapper">
+         <div class="avatar">
+            <img class="photo" src="./img/user-avatar-phone.svg" alt="" / >
+            <div class="add_photo">
+              <img src="./img/camera.svg" alt="" />
+            </div>
+         </div>
+         <div class="block red-prof" >
+             <p>Редактировать профиль</p>
+             <img src="./img/arrow.svg" alt="" />
+         </div>
+         <div class="block red-date">
+            <div class="inner">
+                <p>Дата рождения</p>
+                <p>Указать</p>
+            </div>
+            <img src="./img/arrow.svg" alt="" />
+        </div>
+        <div class="block red-pol">
+            <div class="inner">
+                <p>Пол</p>
+                <p>Указать</p>
+            </div>
+            <img src="./img/arrow.svg" alt="" />
+        </div>
+        <div class="block" onclick="document.location='./change-number-phone.html'">
+            <div class="inner">
+                <p>Изменить телефон</p>
+                <p>890435467867</p>
+            </div>
+            <img src="./img/arrow.svg" alt="" />
+        </div>
+        <div class="block red-email">
+            <p>Изменить email</p>
+            <img src="./img/arrow.svg" alt="" />
+        </div>
+        <div class="block" onclick="document.location='./subscriptions.html'">
+            <p>Подписки</p>
+            <img src="./img/arrow.svg" alt="" />
+        </div>
+        <div class="block">
+            <p class="text">Выйти из аккаунта </p>
+        </div>
+      </div>
+      <div class="wrapper1 ">
+        <div class="modal-window-name">
+          <p>Редактировать ФИО</p>
+          <div class="inner">
+            <div class="line1">
+              <input type="text" placeholder="Фамилия">
+              <p class="dop-text">Указать</p>
+            </div>
+            <div class="line"></div>
+            <div class="line1">
+              <input type="text" placeholder="Имя">
+              <p class="dop-text">Указать</p>
+            </div>
+            <div class="line"></div>
+            <div class="line1">
+              <input type="text" placeholder="Отчество">
+              <p class="dop-text">Указать</p>
+            </div>
+            <div class="line"></div>
+          </div>
+          <button>Сохранить</button>
+          <button class="but-cansel">Отмена</button>
+        </div>
+      </div>
+      <div class="wrapper2">
+        <div class="modal-window-name">
+            <label>
+            Введите дату рождения
+            <input type="date" name="my-date" class="date">
+          </label>
+          <button>Сохранить</button>
+          <button class="but-cansel-date">Отмена</button>
+        </div>
+      </div>
+      <div class="wrapper3">
+        <div class="modal-window-name">
+          <p>Пол</p>
+          <div class="line"></div>
+          <div class="inner-wrapper">
+            <input type="radio" id="man" name="answer" value="man" class="radio">
+            <label for="man">
+              <span >
+                <div class="check">Мужской</div>
+             </span>
+            </label>
+            <div class="line"></div>
+            <input type="radio" id="fem" name="answer" value="fem" class="radio">
+            <label for="fem">
+              <span >
+                <div class="check">Женский</div>
+              </span>
+            </label> 
+          </div>
+          <button>Сохранить</button>
+          <button class="but-cansel-pol">Отмена</button>
+        </div>
+      </div>
+      <div class="wrapper4">
+        <div class="modal-window-name">
+          <p>Укажите адрес электронной почты</p>
+          <input type="email" placeholder="эл. почта">
+          <button>Сохранить</button>
+          <button class="but-cansel-email">Отмена</button> 
+        </div>
+      </div>
+      <div class="footer-phone">
+        <a href="user_profile.html" class="img">
+          <img src="./img/home.svg" alt=""  />
+        </a>
+        <a href="#" class="img2" >
+          <img src="./img/shopping_cart.svg" alt="" />
+        </a>
+        <a href="#" class="img3" >
+          <img src="./img/services.svg" alt="" />
+        </a>
+        <a href="#" class="img4" >
+          <img src="./img/other-sity.svg" alt="" />
+        </a>
+      </div>
+      <script src="./js/user-data-phone.js"></script>
+</body>
+</html>
